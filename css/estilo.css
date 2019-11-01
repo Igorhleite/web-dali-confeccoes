@@ -1,0 +1,16 @@
+.headercolor {
+	background: #00a0e3;
+	font-family: 'Fredoka One', cursive;
+}
+.back {
+	background: #e6e6e6
+}
+div.central {
+  height: 70%;
+  display: block;
+  align-items: center;
+  justify-content: center
+   }
+div.central p {
+  margin: 0 }
+
