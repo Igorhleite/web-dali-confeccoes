@@ -14,3 +14,10 @@ div.central {
 div.central p {
   margin: 0 }
 
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.font {
+	font-family: 'Fredoka One', cursive;
+}
