@@ -3,7 +3,8 @@
 	font-family: 'Fredoka One', cursive;
 }
 .back {
-	background: #e6e6e6
+	background: #e6e6e6;
+	
 }
 div.central {
   height: 70%;
@@ -27,4 +28,8 @@ div.central p {
 
 .font2 {
 	font-family: 'Montserrat', sans-serif;
+}
+
+footer p a {
+	margin: 5px 15px;
 }
