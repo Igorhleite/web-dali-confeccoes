@@ -87,6 +87,7 @@ container .card:hover .face.face1 .content {
 container .card:hover .face.face1 .content img {
 	max-width: auto;
 	height: auto;
+
 }
 
 container .card:hover .face.face1 .content h3 {
@@ -103,19 +104,20 @@ container .card:hover .face.face1 .content h3 {
 {
 	position:relative;
 	background:none;
-	display: flex;
+	display: none;
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
-	transform: translateY(-100px);
-	color: transparent;
-	
+	transform: translateY(-100px);	
 }
 
 .container .card:hover .face.face2
 {
 	transform: translateY(0);
 	color: black;
+	display: flex;
+	
+	
 
 }
 
@@ -154,10 +156,7 @@ div.col-md-4 {
 	
 }
 
-.home {
-	margin-top: 88px;
 
-}
 
 .iphone {
 	max-width: 200px;
@@ -175,9 +174,12 @@ div.col-md-4 {
 	#desktop {
 		display: none;
 	}
+	
 }
 
-
+.altura {
+	height: 88px;
+}
 
 
 
@@ -201,7 +203,37 @@ div.central p {
 .caixa {
 	padding: 10px 0;
 	border-bottom: 1px solid #e5e5e5;
+	margin-top: 5%;
+	
 }
+
+.caixa.contato {
+	
+	background-image: url("https://images.wallpaperscraft.com/image/triangle_geometric_multicolored_118787_2560x1024.jpg");
+	background-repeat: no-repeat ;
+	background-position: center ;
+	width: 100%;
+	opacity: 0.9;
+	
+}
+.caixa.contato:hover {
+	
+	background-image: url("https://images.wallpaperscraft.com/image/triangle_geometric_multicolored_118787_2560x1024.jpg");
+	background-repeat: no-repeat ;
+	background-position: center ;
+	width: 100%;
+	opacity: 1;
+}
+
+.caixa.diferencial {
+	
+	background-image: url("../img/diferencial.jpg");
+	background-repeat: no-repeat ;
+	background-position: center ;
+	width: 100%;
+	
+}
+
 
 .lcaixa {
 	padding: 80px 0px 0px 0px;
@@ -209,6 +241,10 @@ div.central p {
 }
 .font {
 	font-family: 'Montserrat', sans-serif;
+}
+.font-titulo {
+	font-family: 'Montserrat', sans-serif;
+	margin: 20px;
 }
 .caixinha {
 	padding: 5px 0;
