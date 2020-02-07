@@ -224,18 +224,10 @@ div.central p {
 	background-repeat: no-repeat ;
 	background-position: center ;
 	width: 100%;
-	opacity: 0.9;
 	margin-top: 5%;
 	
 }
-.caixa.contato:hover {
-	
-	background-image: url("https://images.wallpaperscraft.com/image/triangle_geometric_multicolored_118787_2560x1024.jpg");
-	background-repeat: no-repeat ;
-	background-position: center ;
-	width: 100%;
-	opacity: 1;
-}
+
 
 .caixa.diferencial {
 	
@@ -277,4 +269,10 @@ div.central p {
 
 footer p a {
 	margin: 5px 15px;
+}
+
+
+a {
+	color: #F77737;
+	font-weight: bold;
 }
