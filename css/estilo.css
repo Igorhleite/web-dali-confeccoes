@@ -8,7 +8,7 @@
 	-ms-transform: scale(1.7); /* IE 9 */
 	-webkit-transform: scale(1.7); /* Safari 3-8 */
 	transform: scale(1.7);
-	
+
 	top:50%;
     left:50%;
     margin:50px;
@@ -16,7 +16,8 @@
     -moz-transition:all 1s;
     -webkit-transition:all 1s;
     -o-transition:all 1s;
-    transition:all 1s;
+	transition:all 1s;
+
   }
 
 
@@ -137,7 +138,8 @@ container .card:hover .face.face1 .content h3 {
 {
 	position:relative;
 	background:none;
-	display: none;
+	color: transparent;
+	margin: 0 0 -40% 0;
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
@@ -149,6 +151,12 @@ container .card:hover .face.face1 .content h3 {
 	transform: translateY(0);
 	color: black;
 	display: inline;
+	margin: 0 0 1px 0;
+	-moz-transition:all 1.5s;
+    -webkit-transition:all 1.5s;
+    -o-transition:all 1.5s;
+	transition:all 1.5s;
+	
 	
 	
 
